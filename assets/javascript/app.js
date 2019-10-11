@@ -1,5 +1,5 @@
 
-    var firebaseConfig = {
+    var config = {
         apiKey: "AIzaSyC7oN1M651SIcn4FNI-7tJCJnyyRsQpR_M",
         authDomain: "train-scheduler-fa9c6.firebaseapp.com",
         databaseURL: "https://train-scheduler-fa9c6.firebaseio.com",
@@ -10,7 +10,7 @@
         measurementId: "G-0N4L28B4BC"
       };
       // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
+      firebase.initializeApp(config);
       
 
     // A variable to reference the database.
@@ -22,7 +22,7 @@
     var firstTrain;
     var frequency = 0;
 
-    $("#addtrain").on("click", function(){
+    $('#add-train').on("click", function(){
         event.preventDefault();
         // Storing and retreiving new train data
         name = $("#train-name").val().trim();
