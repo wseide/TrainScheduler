@@ -1,0 +1,49 @@
+html, body{
+height: 100%;
+}
+body { 
+background-image: url(../images/subway.jpg);
+background-position: center center;
+background-repeat:  no-repeat;
+background-attachment: fixed;
+background-size:  cover;
+background-color: #999;
+}
+.jumbotron {
+background-color: black;
+font-family: 'Oswald', sans-serif;
+color: white;
+text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+.panel-heading {
+background-color: black;
+color: white;
+border: 2px solid white;
+border-radius: 12px;
+}
+
+.table, .form-group {
+color: white;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.panel-heading {
+padding-top: 0.25%;
+}
